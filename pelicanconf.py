@@ -5,6 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = u'George Nikolopoulos'
 SITENAME = u'Programming, Philosophy and stuff'
 SITEURL = ''
+THEME = '/home/george/repos/pelican-themes/pelican-bootstrap3'
 
 PATH = 'content'
 
