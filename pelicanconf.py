@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'George Nikolopoulos'
 SITENAME = u'Programming, Philosophy and stuff'
-SITEURL = ''
+SITEURL = 'http://geonik.github.io'
 THEME = '/home/george/repos/pelican-themes/pelican-bootstrap3'
 
 PATH = 'content'
@@ -18,7 +18,11 @@ FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
+
+FEED_ALL_RSS = 'feeds/all.rss.xml'
+FEED_MAX_ITEMS = 10
+
+BOOTSTRAP_THEME = 'paper'
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
